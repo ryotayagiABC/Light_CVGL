@@ -2,9 +2,12 @@
 
 Implementation of the IGARSS2023 paper [LIGHTWEIGHT CNN FOR CROSS-VIEW GEO-LOCALIZATION USING AERIAL IMAGE]()
 
+<img src="image/model.png" alt="model">
+
+
 ## USAGE
 
-## PRETRAINED MODEL
+## PRE-TRAINED MODEL
 
 ## TRAINING
 
