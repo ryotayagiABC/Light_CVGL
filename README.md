@@ -45,11 +45,11 @@ CVUSA pre-trained model: [here](https://drive.google.com/file/d/1np4jkdDCddwjVZx
 CVACT pre-trained model: [here](https://drive.google.com/file/d/1QrsggSbTczECG39S8EfCR9XsmdjEJ9e8/view?usp=drive_link)
 
 ## TRAIN
-For CVUSA, run the script below.
+For CVUSA, please run the script below.
 ```
 bash train_cvusa.sh
 ```
-For CVACT, run the script below.
+For CVACT, please run the script below.
 ```
 bash train_cvact.sh
 ```
@@ -57,11 +57,15 @@ bash train_cvact.sh
 
 ## TEST
 
+For CVUSA, please run the script below.
 ```
 bash test_cvusa.sh
+```
+For CVACT, please run the script below.
+```
 bash test_cvact.sh
 ```
-During the testing phase, it is essential to ensure that only one GPU is selected.
+Our code is implemented using pytorch-lightning so we can train using multiple GPUs.
 
 ## Cite
 If you use our implementation, please cite:
