@@ -42,7 +42,7 @@ CVUSA
 
 ## PRE-TRAINED MODEL
 
-CVUSA pre-trained model: [here](https://drive.google.com/file/d/1np4jkdDCddwjVZxBMJPi9WYAgDqEhu-K/view?usp=drive_link)
+CVUSA pre-trained model: [here](https://drive.google.com/file/d/1np4jkdDCddwjVZxBMJPi9WYAgDqEhu-K/view?usp=drive_link) <br>
 CVACT pre-trained model: [here](https://drive.google.com/file/d/1QrsggSbTczECG39S8EfCR9XsmdjEJ9e8/view?usp=drive_link)
 
 ## TRAIN
