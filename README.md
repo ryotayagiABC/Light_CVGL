@@ -9,15 +9,16 @@ Implementation of the IGARSS2023 paper [LIGHTWEIGHT CNN FOR CROSS-VIEW GEO-LOCAL
 In the field of remote sensing, there has been a significant amount of research focused on linking different domains such as multi-resolution, multi-spectral, and multi-sensor imagery. One task that involves such multimodal data is cross-view geo-localization, which aims to identify the location of ground query images by matching them with aerial images in a database that is tagged with GPS information. Our study presents a novel lightweight convolutional neural network architecture that achieves comparable performance to a transformer-based model on a city-scale dataset while reducing the number of parameters without using any data augmentation and transformation. Furthermore, our experimental findings indicate that the presence or absence of the fully-connected layer, which is used for generating attention maps, has minimal influence on the model’s accuracy.
 
 ## ENVIRONMENT
+```
 Python 3.8.12
-
+```
 Main Library
-
+```
 pytorch-lightning        1.8.4.post0 <br>
 torch                    2.0.1 <br>
 torchvision              0.15.2 <br>
 opencv                    4.4.0 <br>
-
+```
 Please install any other necessary items.
 
 ## DATASETS
