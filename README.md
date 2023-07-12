@@ -41,12 +41,16 @@ CVUSA
 
 ## PRE-TRAINED MODEL
 
-CVUSA pre-trained model: [here]()
-CVACT pre-trained model: [here]()
+CVUSA pre-trained model: [here](https://drive.google.com/file/d/1np4jkdDCddwjVZxBMJPi9WYAgDqEhu-K/view?usp=drive_link)
+CVACT pre-trained model: [here](https://drive.google.com/file/d/1QrsggSbTczECG39S8EfCR9XsmdjEJ9e8/view?usp=drive_link)
 
 ## TRAIN
+For CVUSA, run the script below.
 ```
 bash train_cvusa.sh
+```
+For CVACT, run the script below.
+```
 bash train_cvact.sh
 ```
 
