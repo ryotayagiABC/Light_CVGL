@@ -54,8 +54,17 @@ For CVACT, please run the script below.
 bash train_cvact.sh
 ```
 
+Our code is implemented using pytorch-lightning so we can train using multiple GPUs.　To use multiple GPUs, rewrite the shell script as follows.
+```
+--gpu 0,1
+```
 
 ## TEST
+Specify the checkpoint by changing the shell script below.
+```
+--checkpoint "./weight/checkpoint.pth"
+```
+
 
 For CVUSA, please run the script below.
 ```
@@ -65,7 +74,6 @@ For CVACT, please run the script below.
 ```
 bash test_cvact.sh
 ```
-Our code is implemented using pytorch-lightning so we can train using multiple GPUs.
 
 ## Cite
 If you use our implementation, please cite:
