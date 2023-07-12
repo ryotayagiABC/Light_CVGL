@@ -55,7 +55,7 @@ For CVACT, please run the script below.
 bash train_cvact.sh
 ```
 
-Our code is implemented using pytorch-lightning so we can train using multiple GPUs.　To use multiple GPUs, rewrite the shell script as follows.
+To use multiple GPUs, rewrite the shell script as follows.
 ```
 --gpu 0,1
 ```
