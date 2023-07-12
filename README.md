@@ -17,7 +17,7 @@ Main Library
 pytorch-lightning        1.8.4.post0 
 torch                    2.0.1 
 torchvision              0.15.2 
-opencv                    4.4.0 
+opencv                   4.4.0 
 ```
 Please install any other necessary items.
 
