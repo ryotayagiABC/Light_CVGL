@@ -11,17 +11,33 @@ In the field of remote sensing, there has been a significant amount of research 
 ## ENVIRONMENT
 Python 3.8.12
 
-* Main Library
+Main Library
 
 pytorch-lightning        1.8.4.post0 <br>
 torch                    2.0.1 <br>
 torchvision              0.15.2 <br>
 opencv                    4.4.0 <br>
 
+Please install any other necessary items.
+
 ## DATASETS
 
 We use two datasets called CVUSA and CVACT in our experiments. You can access the CVUSA dataset by clicking on this link: [CVUSA dataset](https://mvrl.cse.wustl.edu/datasets/cvusa/). Similarly, you can reach the CVACT dataset by clicking on this link: [CVACT dataset](https://github.com/Liumouliu/OriCNN).
 
+Once you have downloaded the datasets, we kindly suggest organizing them in the following directory structure.
+```
+CVACT
+├── ACT_data.mat
+├── grd
+└── sat
+
+CVUSA
+├── grd
+├── sat
+└── splits
+    ├── train-19zl.csv
+    └── val-19zl.csv
+```
 
 ## PRE-TRAINED MODEL
 
