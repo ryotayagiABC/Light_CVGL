@@ -14,10 +14,10 @@ Python 3.8.12
 ```
 Main Library
 ```
-pytorch-lightning        1.8.4.post0 <br>
-torch                    2.0.1 <br>
-torchvision              0.15.2 <br>
-opencv                    4.4.0 <br>
+pytorch-lightning        1.8.4.post0 
+torch                    2.0.1 
+torchvision              0.15.2 
+opencv                    4.4.0 
 ```
 Please install any other necessary items.
 
@@ -65,7 +65,7 @@ Specify the checkpoint by changing the shell script below.
 ```
 --checkpoint "./weight/checkpoint.pth"
 ```
-
+During the testing phase, you should select only one GPU.
 
 For CVUSA, please run the script below.
 ```
