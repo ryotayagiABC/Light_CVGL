@@ -57,16 +57,10 @@ bash train_cvact.sh
 bash test_cvusa.sh
 bash test_cvact.sh
 ```
+During the testing phase, it is essential to ensure that only one GPU is selected.
 
 ## Cite
 If you use our implementation, please cite:
 ```
-@InProceedings{,
-    author    = {},
-    title     = {},
-    booktitle = {},
-    month     = {},
-    year      = {},
-    pages     = {}
-}
+Coming soon.
 ```
